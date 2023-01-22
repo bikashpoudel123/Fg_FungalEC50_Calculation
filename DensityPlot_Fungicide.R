@@ -1,9 +1,8 @@
 library(dplyr)
-##SplitPlotHistogram
 getwd()
 setwd("/Users/bikashpoudel/Library/CloudStorage/OneDrive-NorthDakotaUniversitySystem/Dr. Shaobin Zhong/FHB/Fungicide Sensitivity Manuscript/")
 
-####Data Importation#####
+#Import data into R
 #PROTHIOCONAZOLE
 PROTHIOCONAZOLE <- read.csv(file = "Fg_Fungicide_Sensitivity_PRO.csv", sep = ",", header = TRUE)
 str(PROTHIOCONAZOLE)
